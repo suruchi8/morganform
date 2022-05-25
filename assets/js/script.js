@@ -1,19 +1,9 @@
 // repeater
 $(document).ready(function () {
     // form repeater
-    $('.repeater').repeater({
-        initEmpty: false,
-        defaultValues: {
-            'text-input': ''
-        },
-        show: function () {
-            $(this).slideDown();
-        },
-        hide: function (deleteElement) {
-            $(this).slideUp(deleteElement);
-        },
-        isFirstItemUndeletable: true
-    })
+    $('.repeater').repeater(
+        
+    );
 
     // file input on img click
     const avatar = $('#img-upload-input');
